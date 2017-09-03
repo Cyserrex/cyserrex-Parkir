@@ -1,0 +1,207 @@
+body {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 25px 50px 10px;
+  font-size: 13px;
+  text-align: center;
+  background: #E3CAA1;
+}
+
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 20px 7px;
+  list-style: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+  
+}
+ul li {
+  font: bold 12px/18px sans-serif;
+  display: inline;
+  position: relative;
+  padding: 15px 50px;
+  background: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+ul li a{
+text-decoration: none;
+color: black;
+padding: 15px 50px;
+margin:-15px -50px;
+}
+
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 162px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+ul li ul li:hover , ul li:hover{ background: #666; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.jam {
+	width: 80px;
+}
+
+.dark-matter {
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	background: #aaab93;
+	padding: 20px 30px 20px 30px;
+	font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #373c16;
+	border:none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+
+	  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+
+  
+}
+.dark-matter h2 {
+	font: 25px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 5px 0px 10px 0px;
+	display: block;
+	border-bottom: 1px solid #444;
+	margin: -10px -30px 30px -30px;
+	color: #171606;
+	text-align: center;
+}
+.dark-matter>#upload_results {
+	padding: 0px 0px 0px 0px;
+	margin-bottom: 10px;
+	display: block;
+	font-size: 8px;
+}
+	
+.dark-matter tr {
+	display: block;
+	margin: 0px 0px 0px 135px;
+}
+
+.dark-matter tr>td {
+	float: left;
+	text-align: left;
+	padding-right: 15px;
+	margin-top: 8px;
+	color: #171606;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px
+}
+
+.dark-matter td:nth-child(1) {
+	width:100px;
+}
+
+
+
+
+
+.waktu {
+	display: block;
+	text-align: center;
+	margin: -20px 0 10px 0;
+	float: center;
+	font: 17px "sans-serif", Helvetica, Arial;
+}
+
+
+table {margin-top:10px;}
+
+.dark-matter input[type="text"] {
+	border-color: white;
+	border-width: 0px;
+	border-style: none;
+	color: #4B4B4B;
+	height: 30px;
+	padding: 6px 12px;
+	border-radius: 1px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	font: normal 14px/14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.dark-matter select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right);
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+	width: 72%;
+	height: 30px;
+}
+.dark-matter textarea{
+	height:100px;
+}
+.dark-matter input[type="button"], .dark-matter input[type="submit"], .dark-matter input[type="reset"] {
+	background: #FFF;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	color: #333;
+	border-radius: 4px;
+	margin: 0px 5px;
+}
+.dark-matter input[type="button"]:hover, .dark-matter input[type="submit"]:hover, .dark-matter input[type="reset"]:hover {
+	color: #333;
+	background-color: #EBEBEB;
+}
+
+#ambil_gambar, #reset_gambar {
+	border-color: white;
+	border-width: 3px;
+	border-style: solid;
+}
+
+footer {
+	font: 10px Arial;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+	margin-top: 1em;
+}

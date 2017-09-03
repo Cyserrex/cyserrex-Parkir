@@ -1,0 +1,39 @@
+.judul 
+{
+text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.75);
+color: #000000;
+font-size: 25px;
+text-align:center;
+}
+.box
+{
+padding: 61px;
+margin: 35px 100px 100px 100px;
+background: #AAB9D6;
+border: 0px solid #bbbbbb;
+
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+box-shadow: 0px 0px 10px 3px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 0px 10px 3px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 0px 10px 3px rgba(119, 119, 119, 0.75);
+
+text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.75);
+color: #000000;
+font-size: 20px;
+}
+.btn
+{
+background-color: #AFAFAF;
+display: block;
+}
+footer {
+	font: 10px Arial;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+	margin-left: 47em;
+	margin-top: -8.5em;
+}
